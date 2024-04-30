@@ -1,0 +1,97 @@
+body {
+	background-image: url('./coffee bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.wrapper{
+	background-color: black;
+	padding: 20px 0;
+}
+.navbar{
+	margin: 0px;
+	padding: 10px 5px;
+	display: inline-flex;
+	list-style-type: none;
+}
+.navbar a{
+	font-size: 20px;
+	font-weight: 500;
+	color: whitesmoke;
+	padding: 20px;
+	text-decoration: none;
+	color: whitesmoke;
+}
+.navbar a:hover{
+	color: saddlebrown;
+}
+.navbar a.home{
+	color: saddlebrown;
+}
+.home-text h1{
+	color: saddlebrown;
+	text-stroke: 2px black;
+  	text-shadow: 4px 2px 2px black;
+	font-size: 150px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	font-style: italic;
+	letter-spacing: 10px;
+}
+.home-text p{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: black;
+}
+.btn{
+	display: inline-block;
+	padding: 14px 34px;
+	background: black;
+	color: whitesmoke;
+	border: 2px solid;
+	border-radius: 50px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.btn:hover{
+	transform: translate(-5px);
+	background: transparent;
+}
+.main-btn{
+	display: inline-block;
+}
+footer {
+	padding: 10px;
+	margin-top: 350px;
+	
+}
+.contact-text h1{
+	font-size: 70px;
+	color: saddlebrown;
+	text-stroke: 2px black;
+  	text-shadow: 4px 2px 2px black;
+  	margin-top: 10px;
+	font-style: italic;
+	letter-spacing: 10px;
+}
+.contact-text p{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+form{
+	color: whitesmoke;
+	background-color: black;
+	border-radius: 20px;
+	padding: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+form p{
+	padding: 10px;
+	font-size: 20px;
+}
